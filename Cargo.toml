@@ -1,0 +1,27 @@
+[package]
+name = "rust-learn"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+
+[[bin]]
+name = "vectors"
+path = "src/vectors.rs"
+
+[[bin]]
+name = "options_type"
+path = "src/options_type.rs"
+
+[[bin]]
+name = "ownership"
+path = "src/ownership.rs"
+
+[[bin]]
+name = "borrowing"
+path = "src/browing.rs"
+
+[[bin]]
+name = "async_await"
+path = "src/async_await.rs"
